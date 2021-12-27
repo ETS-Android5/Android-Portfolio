@@ -38,6 +38,7 @@ public class ProjectsAdapter extends RecyclerView.Adapter<ProjectsAdapter.Projec
 
         private TextView pName;
         private TextView pDescription;
+        private TextView pLink;
         private ImageView pImage;
 
         public ProjectsViewHolder(@NonNull View itemView) {
@@ -46,12 +47,14 @@ public class ProjectsAdapter extends RecyclerView.Adapter<ProjectsAdapter.Projec
             pName = itemView.findViewById(R.id.textViewName);
             pDescription = itemView.findViewById(R.id.textViewDescriptions);
             pImage = itemView.findViewById(R.id.imageViewItems);
+            pLink = itemView.findViewById(R.id.textViewLink);
         }
 
         public void Bind(Project project) {
             pName.setText(project.pName);
             pDescription.setText(project.pDescription);
             pImage.setImageResource(project.pImages);
+            pLink.setText(String.format("Link: %s", project.pLink));
 
         }
     }
