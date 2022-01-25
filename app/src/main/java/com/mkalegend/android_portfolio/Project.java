@@ -14,6 +14,10 @@ public class Project {
     }
 
     public static Project[] beginner_projects = {
+            new Project("Addresss Finder (College)",
+                    "A beginner app that uses firebase to recover user address once they input their name.",
+                    R.drawable.address_finder,
+                    "https://github.com/mufratkarim/Programming/tree/master/Android/Address%20Finder"),
             new Project("BMI Calculator",
                     "A real life working BMI Calculator, using Variables, Methods and Conditional Logics.",
                     R.drawable.bmi,
@@ -22,10 +26,6 @@ public class Project {
                     "A menu app for a fictional restaurant, using Activities, Classes & Objects, Arrays, Intents and ListViews.",
                     R.drawable.dream_steak,
                     "https://github.com/mufratkarim/Dream-Steak-Restaurant"),
-            new Project("Self Marketing",
-                    "A self promoting app that helps a job hunter by automatically messaging other contacts with a personalized text",
-                    R.drawable.self,
-                    "https://github.com/mufratkarim/Self-Marketing"),
             new Project("Trip to BD",
                     "A visually stunning app for all of my activities during my trip in Bangladesh.",
                     R.drawable.restaurant,
@@ -37,26 +37,21 @@ public class Project {
     };
 
     public static Project[] intermediate_projects = {
-            new Project("Fast Tasks",
-                    "A task manager application, published on Playstore with extensive User Interface design. ",
-                    R.drawable.fast,
-                    "https://play.google.com/store/apps/details?id=com.todolist.fasttasks"),
-            new Project("NPS American Parks",
-                    "A National Park Service (NPS) app that uses the official developer API to visualize 420+ national parks of USA.",
-                    R.drawable.npsparks,
-                    "https://github.com/mufratkarim/NPS-American-Parks"),
-            new Project("Memory Locker",
-                    "A timeline locker that stores and shares photo memories.",
-                    R.drawable.memorylocker,
-                    "https://github.com/mufratkarim/Memory-Locker"),
-
-            new Project("All Countries",
-                    "A Country Directory Application that retrieves a list of all the countries in the world by applying MVVM architecture, Retrofit2, RxJava, Dependency Injection, Unit Testing with Mockito.",
-                    R.drawable.countries_all,
-                    "https://github.com/mufratkarim/All-Countries"),
+            new Project("Restuarant Ratings (College)",
+                    "A review app of all the Firebase restaurants in realtime.",
+                    R.drawable.rest_ratings,
+                    "https://github.com/mufratkarim/Programming/tree/master/Android/Restaurant%20Ratings"),
+            new Project("Ultimate Map Markers (College)",
+                    "A Marker Storage that helps users to create their favorite locations on Google Maps and stores them using Firebase.",
+                    R.drawable.ult_marker,
+                    "https://github.com/mufratkarim/Programming/tree/master/Android/Ultimate%20Map%20Markers"),
+            new Project("Self Marketing",
+                    "A self promoting app developed in Kotlin that helps a job hunter by automatically messaging other contacts with a personalized text",
+                    R.drawable.self,
+                    "https://github.com/mufratkarim/Self-Marketing"),
             new Project("Meta API Weather Forecast",
                     "A Weather Forecast Application that uses Meta Weather's RESTful API with JSON to display weather of any cities in the world.",
                     R.drawable.weather_forecast,
-                    "https://github.com/mufratkarim/Meta-API-Weather-Forecast")
+                    "https://github.com/mufratkarim/Meta-API-Weather-Forecast"),
     };
 }
