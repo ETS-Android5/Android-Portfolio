@@ -16,7 +16,7 @@ public class Project {
     public static Project[] beginner_projects = {
             new Project("Addresss Finder (College)",
                     "A beginner app that uses firebase to recover user address once they input their name.",
-                    R.drawable.address_finder,
+                    R.drawable.addressfind,
                     "https://github.com/mufratkarim/Programming/tree/master/Android/Address%20Finder"),
             new Project("BMI Calculator",
                     "A real life working BMI Calculator, using Variables, Methods and Conditional Logics.",
@@ -53,5 +53,9 @@ public class Project {
                     "A Weather Forecast Application that uses Meta Weather's RESTful API with JSON to display weather of any cities in the world.",
                     R.drawable.weather_forecast,
                     "https://github.com/mufratkarim/Meta-API-Weather-Forecast"),
+            new Project("Trivia",
+                    "An app that retrieves 913 true/false questions (trivia) from a remote JSON file and showcases them in an attractive quiz UI.",
+                    R.drawable.address_finder,
+                    "https://github.com/mufratkarim/Trivia")
     };
 }
