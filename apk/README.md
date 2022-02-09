@@ -1,2 +1,2 @@
 # APK 
-This directory contains the apk of the application
+This directory contains all the apk files related to this portfolio application
